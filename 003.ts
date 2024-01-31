@@ -16,5 +16,3 @@ function lengthOfLongestSubstring(s: string): number {
   }
   return longest;
 }
-
-console.log(lengthOfLongestSubstring(' '));
