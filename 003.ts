@@ -3,8 +3,6 @@ function lengthOfLongestSubstring(s: string): number {
   let lead = 1;
   let longest = 0;
 
-  // if (s.length === 1) return 1;
-
   while (lead <= s.length) {
     const substring = s.substring(trail, lead);
     if (substring.includes(s[lead])) {
